@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"a78b73ab-af61-456f-8af5-f8d4581e5d4f","path":"sprites/Sprite2/Sprite2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a78b73ab-af61-456f-8af5-f8d4581e5d4f","path":"sprites/Sprite2/Sprite2.yy",},"LayerId":{"name":"6c9eb168-7093-48f2-b15c-2e250d2df8b8","path":"sprites/Sprite2/Sprite2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"resourceVersion":"1.0","name":"a78b73ab-af61-456f-8af5-f8d4581e5d4f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a78b73ab-af61-456f-8af5-f8d4581e5d4f","path":"sprites/spr_asteroid_s/spr_asteroid_s.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a78b73ab-af61-456f-8af5-f8d4581e5d4f","path":"sprites/spr_asteroid_s/spr_asteroid_s.yy",},"LayerId":{"name":"6c9eb168-7093-48f2-b15c-2e250d2df8b8","path":"sprites/spr_asteroid_s/spr_asteroid_s.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_asteroid_s","path":"sprites/spr_asteroid_s/spr_asteroid_s.yy",},"resourceVersion":"1.0","name":"a78b73ab-af61-456f-8af5-f8d4581e5d4f","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},
+    "spriteId": {"name":"spr_asteroid_s","path":"sprites/spr_asteroid_s/spr_asteroid_s.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"ce0e5834-f4b2-44f1-b823-731068262aa2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a78b73ab-af61-456f-8af5-f8d4581e5d4f","path":"sprites/Sprite2/Sprite2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ce0e5834-f4b2-44f1-b823-731068262aa2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a78b73ab-af61-456f-8af5-f8d4581e5d4f","path":"sprites/spr_asteroid_s/spr_asteroid_s.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,9 +58,9 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},
+    "parent": {"name":"spr_asteroid_s","path":"sprites/spr_asteroid_s/spr_asteroid_s.yy",},
     "resourceVersion": "1.3",
-    "name": "Sprite2",
+    "name": "spr_asteroid_s",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -69,11 +69,11 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Asteroid Journey - Chase for the Stolen WiFi",
-    "path": "Asteroid Journey - Chase for the Stolen WiFi.yyp",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Sprite2",
+  "name": "spr_asteroid_s",
   "tags": [],
   "resourceType": "GMSprite",
 }

@@ -2,10 +2,10 @@
   "resources": [
     {"id":{"name":"obj_player1ship","path":"objects/obj_player1ship/obj_player1ship.yy",},"order":0,},
     {"id":{"name":"obj_manager","path":"objects/obj_manager/obj_manager.yy",},"order":2,},
-    {"id":{"name":"player1ship","path":"sprites/player1ship/player1ship.yy",},"order":0,},
+    {"id":{"name":"spr_player1ship","path":"sprites/spr_player1ship/spr_player1ship.yy",},"order":0,},
     {"id":{"name":"obj_asteroid_s","path":"objects/obj_asteroid_s/obj_asteroid_s.yy",},"order":1,},
-    {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"order":15,},
-    {"id":{"name":"MainGame","path":"rooms/MainGame/MainGame.yy",},"order":0,},
+    {"id":{"name":"spr_asteroid_s","path":"sprites/spr_asteroid_s/spr_asteroid_s.yy",},"order":1,},
+    {"id":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},"order":0,},
   ],
   "Options": [
     {"name":"HTML5","path":"options/html5/options_html5.yy",},
@@ -20,7 +20,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"MainGame","path":"rooms/MainGame/MainGame.yy",},},
+    {"roomId":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
