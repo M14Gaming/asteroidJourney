@@ -31,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Player1Ship",
+  "name": "obj_player1ship",
   "tags": [
     "Player Ship",
   ],
