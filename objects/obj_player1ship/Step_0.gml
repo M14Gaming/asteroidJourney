@@ -1,5 +1,4 @@
-/// @description Basic Controls
-
+//Basic Controls
 //Stop moving if no keys are pressed
 hspeed = 0;
 vspeed = 0;
