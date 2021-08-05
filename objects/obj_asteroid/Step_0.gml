@@ -8,7 +8,7 @@ if hspeed = 0 && vspeed = 0
 	centerDirection = point_direction(x,y,540,360);
 	outDirection = centerDirection+180;
 	centerDistance = distance_to_point(540,360);
-	outSpeed = centerDistance/200;
+	outSpeed = centerDistance/150;
 	motion_set(outDirection,outSpeed);
 }
 

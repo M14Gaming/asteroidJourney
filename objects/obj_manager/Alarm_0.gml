@@ -5,7 +5,17 @@ var _x = irandom_range(250, room_width-250);
 var _y = irandom_range(150, room_height-150);
 
 //Create a SmallAsteroid instance
-asteroid = instance_create_layer(_x, _y, "Instances", obj_asteroid_s);
+if player1score >= 300
+{
+	size = choose(obj_asteroid_s, obj_asteroid_s, obj_asteroid_s, obj_asteroid_s, obj_asteroid_m, obj_asteroid_m, obj_asteroid_l);
+	asteroid = instance_create_layer(_x, _y, "Instances", size);
+}
+else if player1score >= 100
+{
+	size = choose(obj_asteroid_s, obj_asteroid_s, obj_asteroid_s, obj_asteroid_m);
+	asteroid = instance_create_layer(_x, _y, "Instances", size);
+}
+else asteroid = instance_create_layer(_x, _y, "Instances", obj_asteroid_s);
 
 //Make the asteroid tiny when it spawns
 asteroid.image_xscale = 0.1;

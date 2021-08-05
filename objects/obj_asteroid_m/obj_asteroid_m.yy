@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_asteroid_s",
-    "path": "sprites/spr_asteroid_s/spr_asteroid_s.yy",
+    "name": "spr_asteroid_m",
+    "path": "sprites/spr_asteroid_m/spr_asteroid_m.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_asteroid_s",
+  "name": "obj_asteroid_m",
   "tags": [],
   "resourceType": "GMObject",
 }
