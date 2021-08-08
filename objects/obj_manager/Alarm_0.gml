@@ -1,8 +1,5 @@
 /// @description Asteroid Generator
 
-//Set a variable spawn rate that can be increased as time passes.
-asteroidSpawnRate = 40;
-
 //Select a random X and Y position
 astX = irandom_range(150, room_width-150);
 astY = irandom_range(150, room_height-150);
@@ -41,7 +38,7 @@ asteroid.image_yscale = 0.1;
 //Draw the asteroids so they appear behind everything else
 asteroid.depth = 10;
 
-//Decrease spawnRate a bit every time Alarm 0 runs
+//Decrease the spawn timer until it reaches it's min of 20 frames (.33 seconds)
 if asteroidSpawnRate > 20
 {
 	asteroidSpawnRate -= 0.1
