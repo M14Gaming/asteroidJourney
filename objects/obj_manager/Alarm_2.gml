@@ -3,6 +3,8 @@
 //Only start spawning Gun Ships once player1score reaches 100
 if player1score >= 100
 {	
+	var gunShip;
+	
 	//Choose the side where the Gun Ship will spawn
 	spawnSide = irandom_range(0, 1);
 
@@ -25,7 +27,7 @@ if player1score >= 100
 }
 
 //Decrease the spawn timer until it reaches it's min of 30 frames (.5 seconds)
-if gunShipSpawnRate > 30
+if gunShipSpawnRate > room_speed * 0.5
 {
 	gunShipSpawnRate--;
 }
