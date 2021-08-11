@@ -4,7 +4,8 @@ randomize();
 //Initialize player scores and hi-scores
 player1score = 0;
 player2score = 0;
-hiScore = 50;
+hiScore = 0;
+prevHi = hiScore;
 
 //Set spawn rates that can be increased as time passes.
 asteroidSpawnRate = room_speed * (2/3);

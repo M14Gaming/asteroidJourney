@@ -1,4 +1,4 @@
-/// @description Screen Shake Properties
+//Screen Shake Properties
 if (shake) 
 {
 	//Decrease the shake timer
@@ -22,4 +22,13 @@ if (shake)
 			shake = false; 
 		} 
 	} 
+}
+
+//If all ships are destroyed, the player can press the spacebar to restart the main game
+if(!instance_exists(obj_playership))
+{
+	if (keyboard_check(vk_space))
+	{
+		room_restart();
+	}
 }
