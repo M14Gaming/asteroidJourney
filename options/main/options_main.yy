@@ -9,7 +9,7 @@
   "option_sci_usesci": true,
   "option_author": "",
   "option_lastchanged": "01 August 2021 22:59:35",
-  "option_spine_licence": false,
+  "option_spine_licence": true,
   "resourceVersion": "1.2",
   "name": "Main",
   "tags": [],

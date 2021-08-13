@@ -2,13 +2,22 @@
 randomize();
 
 //Initialize player scores and hi-scores
-player1score = 0;
-player2score = 0;
-hiScore = 0;
-prevHi = hiScore;
+player1score = 300;
+prevHi = global.hiScore;
+
+//Spawn player ships based on selected mode
+if (global.twoPlayers)
+{
+	instance_create_layer(room_width * (2/3), room_height * 0.5, "Instances", obj_player1ship);
+	instance_create_layer(room_width * (1/3), room_height * 0.5, "Instances", obj_player2ship);
+}
+else
+{
+	instance_create_layer(room_width * 0.5, room_height * 0.5, "Instances", obj_player1ship);
+}
 
 //Set spawn rates that can be increased as time passes.
-asteroidSpawnRate = room_speed * (2/3);
+asteroidSpawnRate = room_speed * (1/4);
 gunShipSpawnRate = room_speed * 2;
 laserCannonSpawnRate = room_speed * 10;
 

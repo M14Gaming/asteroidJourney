@@ -2,6 +2,16 @@
 image_xscale = image_xscale * 1.03;
 image_yscale = image_yscale * 1.03;
 
+//Rotate the asteroid as it travels based on variables created in create event
+if (rotateDir = 1)
+{
+	image_angle -= rotateSpeed;
+}
+else
+{
+	image_angle += rotateSpeed;
+}
+
 //Move the asteroid based on it's position and distance from the center of the screen
 if hspeed = 0 && vspeed = 0
 {

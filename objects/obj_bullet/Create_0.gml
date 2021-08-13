@@ -11,3 +11,6 @@ else
 {
 	hspeed = -5;
 }
+
+//Play beam fire sound
+audio_play_sound(snd_beamshoot, 1, false);

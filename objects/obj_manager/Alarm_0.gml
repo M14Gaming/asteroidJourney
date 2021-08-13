@@ -39,7 +39,7 @@ asteroid.image_yscale = 0.1;
 asteroid.depth = 10;
 
 //Decrease the spawn timer until it reaches it's min of 20 frames (.33 seconds)
-if asteroidSpawnRate > room_speed * (2/3)
+if asteroidSpawnRate > room_speed * (1/8)
 {
 	asteroidSpawnRate -= 0.1
 }

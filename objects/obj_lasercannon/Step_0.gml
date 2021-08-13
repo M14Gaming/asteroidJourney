@@ -18,6 +18,13 @@ if distance_to_point(x, targetY) < 1
 	}
 	else if stopTime >= room_speed * 3
 	{
+		//Play laser fire sound
+		if (!audio_is_playing(snd_laserfireboom))
+		{
+			audio_play_sound(snd_laserfireboom, 1, false);
+			audio_play_sound(snd_laserfirepew, 1, false);
+		}
+		
 		//Tell Alarm 0 to run to fire laser.
 		if (alarm[0] = -1)
 		{

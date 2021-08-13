@@ -25,10 +25,29 @@ if (shake)
 }
 
 //If all ships are destroyed, the player can press the spacebar to restart the main game
-if(!instance_exists(obj_playership))
+if(!instance_exists(obj_player1ship))
 {
 	if (keyboard_check(vk_space))
 	{
 		room_restart();
 	}
+	if (keyboard_check(vk_escape))
+	{
+		room_goto_previous();
+	}
+}
+
+
+//Generate stars at random points throughout the game
+starSpawnX = irandom_range(10, room_width - 10);
+starSpawnY = irandom_range(10, room_width - 10);
+if (instance_number(obj_star) < 20)
+{
+	instance_create_layer(starSpawnX, starSpawnY, "Instances", obj_star);
+}
+
+//Respawn player2ship if it's destroyed
+if (!instance_exists(obj_player2ship) && global.twoPlayers)
+{
+	instance_create_layer(room_width * 0.5, room_height * 0.5, "Instances", obj_player2ship);
 }
