@@ -2,7 +2,7 @@
 randomize();
 
 //Initialize player scores and hi-scores
-player1score = 300;
+player1score = 0;
 prevHi = global.hiScore;
 
 //Spawn player ships based on selected mode
