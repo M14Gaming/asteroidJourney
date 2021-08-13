@@ -18,6 +18,10 @@ if (vspeed < 1 && !instance_exists(obj_tractormain))
 //Once wifi has been obtained, fly away and load the main game
 if (obj_wifi.image_xscale <= 0 && obj_tractormain.image_xscale <= 0)
 {
+	if(image_xscale > 0.5 && !audio_is_playing(snd_wifistealerexit))
+	{
+		audio_play_sound(snd_wifistealerexit, 1, false);
+	}
 	image_xscale *= 0.9;
 	image_yscale *= 0.9;
 }

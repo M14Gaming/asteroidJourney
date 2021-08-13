@@ -11,3 +11,9 @@ if (instance_exists(obj_tractorwhite) && image_xscale > 0)
 	image_xscale -= 0.05;
 	image_yscale -= 0.05;
 }
+
+//Play wifi hum as long as wifi is visible
+if (image_xscale > 0 && !audio_is_playing(snd_wifihum))
+{
+	audio_play_sound(snd_wifihum, 1, false);
+}
